@@ -1,17 +1,23 @@
 weapongen({
 	step: function(input, alt) {
-		if input.hit {
-			if down.hold {
+		c_input();
+		if input.hold {
+			if up.hit {
 				
-			} else if down.hold {
+			} else if down.hit {
 				
-			} else {
+			} else if left.hit || right.hit {
 				
 			}
 		}
 	},
-	draw: function() {
-		
+	draw: function(input, alt) {
+		exit;
+		if input.hold {
+			draw_set_halign(fa_center);
+			draw_string(df.x, df.y-20, "PRESS A DIRECTION");
+			draw_reset();
+		}
 	},
 	ammo: 0,
 	ammomax: 0,

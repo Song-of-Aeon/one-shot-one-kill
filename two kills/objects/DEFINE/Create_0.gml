@@ -119,12 +119,12 @@ switch os_get_config() {
 		break;
 	case "elsewhere":
 		sprites = {
-			idle: s_ky,
-			walk: s_ky,
-			up: s_ky,
-			upwalk: s_ky,
-			down: s_ky,
-			jump: s_kyjump,
+			idle: s_larger,
+			walk: s_larger,
+			up: s_larger,
+			upwalk: s_larger,
+			down: s_larger,
+			jump: s_larger,
 		}
 		/*sprites = {
 			idle: s_kyblock,
@@ -134,7 +134,7 @@ switch os_get_config() {
 			down: s_kyblock,
 			jump: s_kyblock,
 		}*/
-		sprite_index = s_kyblock;
+		sprite_index = s_larger;
 		weapons = [
 			[wp.rod],
 		];

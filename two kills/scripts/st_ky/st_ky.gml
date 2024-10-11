@@ -31,13 +31,7 @@ function st_ky() {
 	spd.v += grav;
     if leniance {
         if jump.hit {
-			if spd.v > grav*2 {
-				//spd.h += spd.v*image_xscale*-2;
-				spd.h = -5.4*image_xscale;
-				spd.v = -jumpspeed*.68;
-			} else {
-				spd.v = -jumpspeed;
-			}
+			spd.v = -jumpspeed;
             //spd.v -= jumpspeed;
             leniance = 0;
         }
@@ -94,6 +88,6 @@ function st_ky() {
 			dude.interaction();
 		}
 	}
-	log(spd.h);
-	log(x-xprevious);
+	//log(spd.h);
+	//log(x-xprevious);
 }
