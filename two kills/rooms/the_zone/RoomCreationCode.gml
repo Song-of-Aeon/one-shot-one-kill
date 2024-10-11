@@ -1,0 +1,1 @@
+textbox_create(txt_test, global.textnvl);

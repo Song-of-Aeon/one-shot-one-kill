@@ -1,0 +1,1 @@
+spd = new vec2();

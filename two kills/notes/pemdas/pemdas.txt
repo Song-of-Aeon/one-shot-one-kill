@@ -1,0 +1,13 @@
+ORDER OF OPERATIONS
+PNIMMDASEC
+
+Parentheses ()
+Not !
+Inverse -
+Multiplication *
+Modulo %
+Division /
+Addition +
+Subtraction -
+Equivalency ==
+Christmas @

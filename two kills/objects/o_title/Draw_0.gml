@@ -1,0 +1,1 @@
+draw_sprite(bk_touhouultrakill, 0, 0, 0);
