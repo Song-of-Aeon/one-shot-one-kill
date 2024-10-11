@@ -51,6 +51,7 @@ function c_inputload() {
 	nu kinput("zed", ["Z"]);
 	nu kinput("yed", ["Y"]);
 	nu kinput("skip", [vk_control, gp_select]);
+	nu kinput("null", []);
 }
 
 function kinput(name_, keys_) constructor {

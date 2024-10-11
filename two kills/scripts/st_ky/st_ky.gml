@@ -46,8 +46,8 @@ function st_ky() {
 	
 	//var xtouching = [];
 	//var ytouching = move_and_collide(spd.h, spd.v, o_solid);
-	var xtouching = move_and_collide(spd.h, 0, o_solid);
-	var ytouching = move_and_collide(0, spd.v, o_solid);
+	xtouching = move_and_collide(spd.h, 0, o_solid);
+	ytouching = move_and_collide(0, spd.v, o_solid);
 	
 	var nottouching = ds_list_create();
 	collision_rectangle_list(bbox_left, bbox_top, bbox_right, bbox_bottom, o_notsolid, false, false, nottouching, false);

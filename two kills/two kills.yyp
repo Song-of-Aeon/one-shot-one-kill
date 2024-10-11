@@ -78,6 +78,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"when","folderPath":"folders/Sprites/when.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Textbox","folderPath":"folders/Textbox.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"deposit all","folderPath":"folders/deposit all.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"pixel04b24.ttf","CopyToMask":-1,"filePath":"datafiles",},
@@ -111,6 +112,7 @@
     {"id":{"name":"imguigml_functions","path":"scripts/imguigml_functions/imguigml_functions.yy",},},
     {"id":{"name":"icarus","path":"rooms/icarus/icarus.yy",},},
     {"id":{"name":"test_depth","path":"objects/test_depth/test_depth.yy",},},
+    {"id":{"name":"c_inputnull","path":"scripts/c_inputnull/c_inputnull.yy",},},
     {"id":{"name":"st","path":"scripts/st/st.yy",},},
     {"id":{"name":"wp_shotgun","path":"scripts/wp_shotgun/wp_shotgun.yy",},},
     {"id":{"name":"s_8588136","path":"sprites/s_8588136/s_8588136.yy",},},
@@ -338,6 +340,7 @@
     {"id":{"name":"o_coin","path":"objects/o_coin/o_coin.yy",},},
     {"id":{"name":"s_meupwalk","path":"sprites/s_meupwalk/s_meupwalk.yy",},},
     {"id":{"name":"s_kyblock","path":"sprites/s_kyblock/s_kyblock.yy",},},
+    {"id":{"name":"st_lock","path":"scripts/st_lock/st_lock.yy",},},
     {"id":{"name":"st_backlog","path":"scripts/st_backlog/st_backlog.yy",},},
     {"id":{"name":"TT_L45","path":"sprites/TT_L45/TT_L45.yy",},},
     {"id":{"name":"array_greatest","path":"scripts/array_greatest/array_greatest.yy",},},
